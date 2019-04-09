@@ -423,6 +423,26 @@
                 "key": "ctrl+f2",
                 "command": "workbench.action.debug.stop",
                 "when": "inDebugMode"
+            },
+            {
+                "key": "shift+alt+up",
+                "command": "editor.action.smartSelect.expand",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+right",
+                "command": "-editor.action.smartSelect.expand",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+down",
+                "command": "editor.action.smartSelect.shrink",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "shift+alt+left",
+                "command": "-editor.action.smartSelect.shrink",
+                "when": "editorTextFocus"
             }
         ]
     },
